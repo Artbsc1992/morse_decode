@@ -51,6 +51,7 @@ def decode(str)
   message
 end
 
-puts decode_char('-.')
+puts decode_char('.-')
 puts decode_word('-- -.--')
+puts decode('-- -.--   -. .- -- .')
 puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
