@@ -1,56 +1,27 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-> Description the project.
+# Decode a Morse code message
 
 
-## Built With
+> During your vacation at the seaside, time after time you find old bottles with parchment inside. Out of curiosity, you look into the next bottle and see that there is a message written in Morse code. Your curiosity grows even more - maybe you just found the lost treasure of the pirates! However, you are getting tired of decrypting messages manually. Fortunately, you can program in Ruby and you can help yourself by automating this process.
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+Let's not waste time, the pirate treasure awaits! Let's get to work.
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Arturo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Artbsc1992](https://github.com/Artbsc1992)
+- Twitter: [@Arturo_D_Rock](https://twitter.com/Arturo_D_Rock)
+- LinkedIn: [Arturo Hermida](https://www.linkedin.com/in/arturo-hermida29/)
 
-👤 **Author2**
+👤 **Oshane**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Ocrearyy](https://github.com/ocrearyy)
+- Twitter: [@ocrearyy](https://twitter.com/ocrearyy)
+- LinkedIn: [Oshane C.](https://www.linkedin.com/in/ocreary/)
 
 ## 🤝 Contributing
 
@@ -61,12 +32,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
