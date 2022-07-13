@@ -25,29 +25,27 @@ MORSE_CODE = {
   '-..-' => 'X',
   '-.--' => 'Y',
   ' --..' => 'Z'
-}
+}.freeze
 
 def decode_char(str)
   if MORSE_CODE.key?(str)
     MORSE_CODE[str]
-  else 
+  else
     ''
   end
 end
 
-
 def decode_word(str)
   word = ''
-  str.split(' ').each do |letter|
+  str.split.each do |letter|
     word += MORSE_CODE[letter]
   end
-  word 
+  word
 end
 
-
 def decode(str)
-  message= ''
-  str.split("   ").each do |word|
+  message = ''
+  str.split('   ').each do |word|
     message += "#{decode_word(word)} "
   end
   message
