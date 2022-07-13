@@ -1,4 +1,4 @@
-morse_code = {
+MORSE_CODE = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
@@ -26,4 +26,12 @@ morse_code = {
   '-.--' => 'Y',
   ' --..' => 'Z'
 }
-print morse_code['.-']
+
+def decode_char(str)
+  if MORSE_CODE.key?(str)
+    MORSE_CODE[str]
+  else 
+    ''
+  end
+end
+print decode_char('-.')
