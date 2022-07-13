@@ -34,4 +34,13 @@ def decode_char(str)
     ''
   end
 end
-print decode_char('-.')
+puts decode_char('-.')
+
+def decode_word(str)
+  word = ''
+  str.split(' ').each do |letter|
+    word += MORSE_CODE[letter]
+  end
+  word 
+end
+puts decode_word('-- -.--')
