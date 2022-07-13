@@ -48,7 +48,7 @@ def decode(str)
   str.split('   ').each do |word|
     message += "#{decode_word(word)} "
   end
-  message
+  message.strip
 end
 
 puts decode_char('.-')
