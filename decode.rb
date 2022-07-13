@@ -34,7 +34,7 @@ def decode_char(str)
     ''
   end
 end
-puts decode_char('-.')
+
 
 def decode_word(str)
   word = ''
@@ -43,4 +43,16 @@ def decode_word(str)
   end
   word 
 end
+
+
+def decode(str)
+  message= ''
+  str.split("   ").each do |word|
+    message += "#{decode_word(word)} "
+  end
+  message
+end
+
+puts decode_char('-.')
 puts decode_word('-- -.--')
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
