@@ -38,7 +38,7 @@ end
 def decode_word(str)
   word = ''
   str.split.each do |letter|
-    word += MORSE_CODE[letter]
+    word += decode_char(letter)
   end
   word
 end
